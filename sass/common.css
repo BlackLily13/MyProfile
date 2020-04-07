@@ -1,0 +1,131 @@
+#all {
+  width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff; }
+
+.wrapper {
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+
+h1 {
+  font-size: 20px;
+  margin: 0;
+  padding: 0; }
+
+.row1 #mainheader {
+  width: 1500px;
+  margin: 0; }
+  .row1 #mainheader #logo {
+    margin: 0;
+    padding: 0; }
+  .row1 #mainheader #address {
+    font-size: 20px;
+    margin: 20px;
+    text-decoration: none; }
+
+.row2 {
+  margin: 0;
+  padding: 0px;
+  background-color: #ffCCff; }
+  .row2 nav ul {
+    display: table;
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    border-top: 6px solid #ee82ee; }
+    .row2 nav ul li {
+      display: table-cell;
+      width: 20%; }
+      .row2 nav ul li a {
+        display: block;
+        width: 100%;
+        text-decoration: none;
+        color: #da70d6;
+        font-weight: bold;
+        padding: 0;
+        margin: 5px; }
+        .row2 nav ul li a:hover {
+          font-weight: bold;
+          color: #fff;
+          border-bottom: 5px solid #fff; }
+
+.row3 {
+  text-align: center;
+  width: 1500px;
+  margin: 0;
+  padding: 0; }
+  .row3 #mainvisual {
+    margin-top: 30px; }
+
+.row4 {
+  margin: 0px; }
+  .row4 .clearfix {
+    display: flex; }
+    .row4 .clearfix #maincont {
+      width: 65%;
+      background: #ffCCff;
+      border-style: double;
+      border: 10pt #ff44ff;
+      padding: 20px;
+      margin: 30px 30px 0px 30px; }
+      .row4 .clearfix #maincont div a {
+        font-size: 35pt;
+        font-weight: bold;
+        margin-left: 10px;
+        padding: 6px;
+        color: #da70d6;
+        border: 10px double #ff44ff;
+        text-decoration: none; }
+      .row4 .clearfix #maincont div p {
+        margin-left: 50px;
+        font-size: 15pt;
+        font-weight: bold;
+        padding: 20px;
+        border: 5px #ff44ff;
+        border-style: dashed;
+        color: #ee82ee;
+        margin-bottom: 50px; }
+    .row4 .clearfix #sidecont {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 10px;
+      width: 35%;
+      background-color: #ffCCff;
+      margin-top: 30px;
+      height: 600px; }
+      .row4 .clearfix #sidecont ul {
+        list-style: none; }
+        .row4 .clearfix #sidecont ul li {
+          text-align: center;
+          border: 4px solid #ee82ee;
+          margin: 20px;
+          padding-top: 10px;
+          padding-bottom: 10px; }
+          .row4 .clearfix #sidecont ul li a {
+            color: #ee82ee;
+            text-decoration: none;
+            font-size: 25px; }
+            .row4 .clearfix #sidecont ul li a:hover {
+              color: #fff;
+              font-weight: bold; }
+        .row4 .clearfix #sidecont ul #menu {
+          background: #ee82ee; }
+          .row4 .clearfix #sidecont ul #menu p {
+            color: #fff;
+            text-decoration: none;
+            font-size: 25px; }
+
+.row5 {
+  background-color: #ffCCff;
+  text-align: center;
+  margin-top: 30px; }
+  .row5 #mainfooter {
+    color: #ee82ee;
+    margin: 0 auto;
+    padding: 13px 0; }
+
+/*# sourceMappingURL=common.css.map */
